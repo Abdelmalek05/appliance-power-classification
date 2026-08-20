@@ -127,12 +127,11 @@ All model selection here used 5-fold cross-validation on the 100 training sample
 | 7 | Confusion matrix, model agreement analysis, summary table |
 | 8 | Conclusion and references |
 
-## Team
+## Author
 
-Group project for the Time Series Analysis and Classification module at **ENSIA** (École Nationale Supérieure d'Intelligence Artificielle), 2026.
+**Abdelmalek Nedjar**
 
-- Abdelmalek Nedjar
-- Ryme Ait Belkacem
+Group project for the Time Series Analysis and Classification module at **ENSIA** (École Nationale Supérieure d'Intelligence Artificielle), 2026. The work was done in a two-person team, with each member publishing their own copy of the project.
 
 ## References
 
