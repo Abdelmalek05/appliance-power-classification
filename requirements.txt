@@ -1,0 +1,15 @@
+numpy==2.3.5
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.7.2
+matplotlib==3.10.8
+seaborn==0.13.2
+PyWavelets==1.8.0
+numba==0.62.1
+sktime==0.40.1
+aeon==1.4.0
+# torch is a soft dependency of aeon, required by MultiRocketHydraClassifier.
+# CPU-only wheels are enough: pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cpu
+torch==2.11.0
+jupyter==1.1.1
+nbconvert==7.16.6
