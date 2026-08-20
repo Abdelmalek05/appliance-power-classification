@@ -131,7 +131,7 @@ All model selection here used 5-fold cross-validation on the 100 training sample
 
 **Abdelmalek Nedjar**
 
-Group project for the Time Series Analysis and Classification module at **ENSIA** (École Nationale Supérieure d'Intelligence Artificielle), 2026. The work was done in a two-person team, with each member publishing their own copy of the project.
+Project for the Time Series Analysis and Classification module at **ENSIA** (École Nationale Supérieure d'Intelligence Artificielle), 2026.
 
 ## References
 
