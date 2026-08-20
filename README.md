@@ -38,11 +38,16 @@ Five-fold stratified cross-validation on the 100 training samples, `random_state
 | Learned representation | MultiRocket-Hydra | 0.75 ± 0.03 |
 | Learned representation | WEASEL 2.0 | 0.76 ± 0.05 |
 | Learned representation | MiniRocket + Ridge | 0.76 ± 0.06 |
-| **Ensemble** | **Soft vote of the four above** | see below |
+| **Ensemble** | **Soft vote of the four above** | — |
 
-The soft-vote ensemble of the four modern classifiers scored **0.97 on the competition test set**. Its predictions are in [`submissions/ensemble-submission.csv`](submissions/ensemble-submission.csv).
+Two models were submitted to the competition:
 
-A second submission, [`submissions/ET-submission.csv`](submissions/ET-submission.csv), comes from the Extra Trees model on 30 hand-built features — kept as the interpretable comparison. The two agree on 93 of 100 test samples.
+| Submission | Model | Test accuracy |
+|---|---|---|
+| [`submissions/ensemble-submission.csv`](submissions/ensemble-submission.csv) | Soft vote of the four modern classifiers | **0.97** |
+| [`submissions/ET-submission.csv`](submissions/ET-submission.csv) | Extra Trees on 30 engineered features | 0.92 |
+
+The two agree on 93 of 100 test samples. The ensemble is the final answer; Extra Trees is kept because a transparent 30-feature model landing within 5 points of it is a result worth reporting, not hiding.
 
 ## What actually mattered
 
